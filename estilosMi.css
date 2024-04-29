@@ -1,0 +1,143 @@
+/*DISEÑO BASE DE PAGINA*/
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Madimi One", sans-serif; 
+}
+
+body{
+    background-image: url(/images/fondo_1.jpg);
+}
+/*MENU PAGINA*/
+.logos{
+    width: 100px;
+    height: 100px;
+    position: relative;  
+    float: left;
+}
+
+
+.estilo{
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    position: relative;
+    right: 185px;
+}
+
+
+.estilo:hover{
+    color: aqua;
+}
+
+.navnus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+.etiquetas{
+        font-size: 18px;
+        color: blue;
+        text-decoration: none;
+}
+
+
+.menus{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.etiquetas:hover{
+    color: aqua;
+}
+
+
+/*Contenido Inicial Pagina*/
+
+.textoss{
+
+    font-size: 55px;
+    text-align: center;
+    color: violet;
+}
+
+.presentacion{
+    display: flex;
+    align-items: center;
+    height: 225px;
+    width: 190px;
+    padding: 120px 135px;
+
+}
+
+
+/*Texto pagina*/
+
+.txt3{
+    
+    text-align: center;
+    display: flex;
+    margin-left: 525px;
+}
+
+
+.textoss2{
+    display: flex;
+    text-align: left;
+    font-size: 31px;
+    color: violet;
+    text-align: center;
+}
+
+
+.informacion{
+    font-size: 22px;
+    color: rgb(83, 141, 216);
+
+}
+
+
+.lenguajes{
+    font-size: 15px;
+    color:aqua
+}
+
+
+
+/*SUBMENU*/
+
+.acordeon{
+    background-color: blueviolet;
+    color: black;
+    cursor: pointer;
+    display: flex;
+    padding: 20px ;
+    width: 25%;
+    border-radius: 35px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    margin-left: 24px;
+}
+
+.active, .acordeon:hover{
+    background-color: violet;
+}
+
+.panel{
+    width: 25%;
+    padding: 0px 20px;
+    display: flex;
+    border-radius: 35px;
+    background-color: rgb(201, 73, 201);
+    overflow: hidden;
+    font-size: 25px;
+    margin-left: 18px;
+}

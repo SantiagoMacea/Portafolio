@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Madimi One", sans-serif; 
+}
+
+body{
+    background-image: url(/images/fondo_1.jpg);
+
+}
+
+.logoa{
+    width: 100px;
+    height: 100px;
+    position: relative;  
+    float: left;
+}
+
+
+.etilo{
+    font-size: 25px;
+    color: blue;
+    text-decoration: none;
+    position: relative;
+    right: 185px;
+}
+
+
+.etilo:hover{
+    color: aqua;
+}
+.navnu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+}
+.etiqueta{
+        font-size: 18px;
+        color: blue;
+        text-decoration: none;
+       
+}
+.menu{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.etiqueta:hover{
+    color: aqua;
+}
+
+.texto{
+    font-size: 24px;
+    font-family: "Madimi One", sans-serif;
+    color: blue;
+    position: absolute;
+    left: 105px;        
+}
+
+.txtlog{
+    font-size: 30px;
+    color: orange;
+    position: absolute;
+    left: 180px ;
+}
+
+.txtlog1{
+    font-size: 30px;
+    color: blue;
+    position: absolute;
+    left: 362px;
+}
+
+.txtlog2{
+    font-size: 30px;
+    color: yellow;
+    position: absolute;
+    left: 540px;
+}
+
+.txt2{
+    font-size: 25px ;
+    color: blueviolet;
+    text-align: center;
+}
+
+/*Tecnologias*/
+
+.logoss1{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left: 185px;
+    top: 75px;
+   
+}
+.logoss2{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left: 285px;
+    top: 75px;
+}
+.logoss3{
+    width: 65px;
+    height: 65px;
+    position: relative;
+    left: 385px;
+    top: 75px;
+}
+
+
+
+/*Pie de pagina*/
+
+.form{
+    font-size: 19px;
+    font-family: "Madimi One", sans-serif;
+    position: relative;
+    color: aqua;
+    text-align: center;
+}
+
+.final{
+    border: transparent;
+    font-size: 25px;
+    color: aqua;
+    
+}
+
+.tecno{
+    font-size: 25px;
+    color:  blueviolet;
+    position: relative;
+    left: 12px;
+}
+
+.desa{
+    font-size: 25px;
+    color: aqua;
+    position: relative;
+    
+}
+/*Formulario*/
+.footer{
+    font-size: 25px;
+    color: aliceblue;
+    margin-left: 65px;
+    padding: 10px 55px;
+    border: 3px solid rgb(95, 34, 54);
+    border-radius: 25px;
+    background-color: rgb(25, 7, 73);
+    width: 430px;
+    height: 335px;
+}
+
+.forms{
+    margin-top: 15px;
+    font-size: 25px;
+    width: 25px; 
+}
+
+.forms .huecos{
+    color: black;
+    background-color: rgb(231, 206, 210);
+    font-size: 15px;
+    border-radius: 10px;
+    outline: none;
+}
+
+
+
+.enviar{
+    background-color: blueviolet;
+    font-size: 18px;
+    padding: 5px 35px;
+    border-radius: 35px;
+    border: none;
+}
+
+.enviar:hover{
+    color: palevioletred;
+}
+
+.finall{
+    
+    height: 35px;
+    width: 35px;
+}
+.desatext{
+    font-size: 22px;
+    color: aliceblue;
+}
+
+/*Redess de comunicacion*/
+
+.redess{
+    position: relative;
+    left: 620px;
+    width: 35px;
+    height: 35px;
+    
+}
+
+.creditoss{
+    font-size: 25px;
+    text-align: center;
+    color: aqua;
+}
